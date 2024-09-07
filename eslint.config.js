@@ -109,6 +109,7 @@ export default tseslint.config(
       '@typescript-eslint/strict-boolean-expressions': 'off',
       // Fix for vite env.d.ts.
       '@typescript-eslint/triple-slash-reference': 'off',
+      '@typescript-eslint/ no-explicit-any': 'off',
       // Fix for Vue setup style
       'import/default': 'off',
       // Fix for Vue setup style

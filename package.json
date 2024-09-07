@@ -1,7 +1,7 @@
 {
-  "name": "vite-vue3-ts-starter",
-  "version": "1.11.2",
-  "description": "Vue3 Vuetify TypeScript Startar project for Vite.",
+  "name": "alvis-starter",
+  "version": "1.0.0",
+  "description": "Vue3 TypeScript Starter project for Alvis.",
   "license": "MIT",
   "type": "module",
   "private": true,
@@ -10,13 +10,13 @@
     "email": "logue@hotmail.co.jp",
     "url": "https://logue.dev/"
   },
-  "homepage": "https://github.com/logue/vite-vue3-ts-starter",
+  "homepage": "https://github.com/alvaro-canepa/alvis-starter",
   "repository": {
     "type": "git",
-    "url": "git@github.com:logue/vite-vue3-ts-starter.git"
+    "url": "git@github.com:alvaro-canepa/alvis-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/logue/vite-vue3-ts-starter/issues"
+    "url": "https://github.com/alvaro-canepa/alvis-starter/issues"
   },
   "engines": {
     "node": ">=20.17.0",
@@ -39,16 +39,37 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@pinia-orm/axios": "^1.9.2",
+    "@planetadeleste/pinia-orm-auth": "^1.0.3",
+    "@planetadeleste/pinia-orm-core": "^1.0.4",
+    "axios": "^1.7.5",
+    "dayjs": "^1.11.13",
+    "idb-keyval": "^6.2.1",
+    "mitt": "^3.0.1",
+    "notivue": "^2.4.4",
     "pinia": "^2.2.2",
+    "pinia-orm": "^1.9.2",
     "pinia-plugin-persistedstate": "^3.2.3",
+    "pusher-js": "8.4.0-rc2",
+    "vee-validate": "^4.13.2",
     "vue": "^3.4.38",
-    "vue-router": "^4.4.3"
+    "vue-axios": "^3.5.2",
+    "vue-i18n": "^9.14.0",
+    "vue-router": "^4.4.3",
+    "yup": "^1.4.0",
+    "yup-locales": "^1.2.28"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@iconify-json/logos": "^1.1.44",
+    "@iconify/tools": "^4.0.5",
+    "@iconify/types": "^2.0.0",
+    "@iconify/utils": "^2.1.32",
     "@rushstack/eslint-patch": "^1.10.4",
     "@tsconfig/node-lts": "^20.1.3",
     "@types/jsdom": "^21.1.7",
+    "@types/lodash": "^4.17.7",
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.5.1",
     "@vitejs/plugin-vue": "^5.1.2",
     "@vitest/coverage-v8": "^2.0.5",
@@ -56,6 +77,7 @@
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.5.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9.9.1",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.6.3",
@@ -64,10 +86,14 @@
     "eslint-plugin-vue": "^9.27.0",
     "eslint-plugin-vuejs-accessibility": "^2.4.1",
     "eslint-plugin-yaml": "^1.0.3",
+    "fast-glob": "^3.3.2",
     "husky": "^9.1.5",
     "jsdom": "^25.0.0",
     "lint-staged": "^15.2.9",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "npm-run-all2": "^6.2.2",
+    "postcss": "^8.4.41",
     "postcss-html": "^1.7.0",
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
@@ -77,11 +103,20 @@
     "stylelint-config-recommended-scss": "^14.1.0",
     "stylelint-config-recommended-vue": "^1.5.0",
     "stylelint-order": "^6.0.4",
+    "tailwindcss": "^3.4.10",
+    "terser": "^5.31.6",
     "typescript": "~5.5.4",
     "typescript-eslint": "^8.3.0",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-icons": "^0.18.5",
+    "unplugin-vue-components": "^0.27.4",
+    "unplugin-vue-router": "^0.10.7",
     "vite": "^5.4.2",
     "vite-plugin-checker": "^0.7.2",
+    "vite-plugin-vue-layouts": "^0.11.0",
+    "vite-svg-loader": "^5.1.0",
     "vitest": "^2.0.5",
+    "vue-docgen-web-types": "^0.1.8",
     "vue-tsc": "^2.1.2"
   },
   "husky": {

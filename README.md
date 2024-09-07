@@ -10,7 +10,7 @@ Also, when the development server is executed, it is checked in real time by [vi
 
 First define `VITE_APP_TITLE` in your `.env` file.
 
-Versions 1.11 and later use pnpm as the package manager.
+Use pnpm as the package manager.
 
 ## Recommended IDE Setup
 
@@ -50,21 +50,18 @@ It will not work properly if you are using Node v21.0.0. Please upgrade to 21.1.
 
 ## Checklist
 
-When you use this template, try follow the checklist to update your info properly
-
-- [ ] Change the author name in `LICENSE`
-- [ ] Change the favicon in `public`
-- [ ] Remove the `.github` folder which contains the funding info
-- [ ] Clean up the READMEs and remove routes
-
-## See Also
-
-- for Vue3
-  - [vite-vuetify-ts-starter](https://github.com/logue/vite-vuetify-ts-starter) - With Vuetify3
-  - [vite-element-plus-ts-starter](https://github.com/logue/vite-element-plus-ts-starter) - with Element Plus
-  - vite-bootstrap-vue-ts-starter - Comming soon.
-- for Vue2
-  - [vite-vue2-ts-starter](https://github.com/logue/vite-vue2-ts-starter) - Vite Vue2 starter.
-  - [vite-vue2-vuetify-ts-starter](https://github.com/logue/vite-vue2-vuetify-ts-starter) - UI library using Vuetify2
-  - [laravel9-vite-vue2-starter](https://github.com/logue/laravel9-vite-vue2-starter) - Vue2 for Laravel9 + Breeze.
-  - [vite-vue2-ts-ssr-starter](https://github.com/logue/vite-vue2-ts-ssr-starter) - SSR (Server Side Rendering) Version.
+- [x] ⚡ Vue3 + Vite5
+- [x] 🍕 TypeScript
+- [x] 🌀 Tailwindcss
+- [x] 🍍 Pinia
+- [x] 🍍 Pinia ORM
+- [x] 🧀 i18n
+- [x] Vue-router 4
+- [x] Axios
+- [x] Vue-i18n
+- [x] dayjs
+- [x] Notivue
+- [x] Lodash-es
+- [x] Pusher-js
+- [x] VeeValidate
+- [x] Yup
