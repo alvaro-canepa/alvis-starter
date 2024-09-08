@@ -1,9 +1,66 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig.json",
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" },
-    { "path": "./tsconfig.vitest.json" }
+  "$schema":"https://json.schemastore.org/tsconfig.json",
+  "extends":"@tsconfig/node-lts/tsconfig.json",
+  "include":[
+    "vite.config.ts",
+    "env.d.ts",
+    "components.d.ts",
+    "auto-imports.d.ts",
+    "typed-router.d.ts",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "compilerOptions":{
+    "allowJs":false,
+    "allowSyntheticDefaultImports":true,
+    "baseUrl":".",
+    "declaration":true,
+    "declarationDir":"types/",
+    "declarationMap":true,
+    "emitDeclarationOnly":false,
+    "esModuleInterop":true,
+    "experimentalDecorators":true,
+    "importHelpers":true,
+    "isolatedModules":true,
+    "jsx":"preserve",
+    "lib":[
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "module":"esnext",
+    "moduleResolution":"Bundler",
+    "newLine":"lf",
+    "noImplicitAny":false,
+    "noUnusedLocals":false,
+    "noUnusedParameters":false,
+    "paths":{
+      "@/*":[
+        "./src/*"
+      ]
+    },
+    "resolveJsonModule":true,
+    "skipLibCheck":true,
+    "sourceMap":true,
+    "strict":true,
+    "target":"esnext",
+    "types":[
+      "vite/client",
+      "node",
+      "vue",
+      "unplugin-icons/types/vue",
+      "unplugin-vue-router/client",
+      "vite-plugin-vue-layouts/client"
+    ],
+    "useDefineForClassFields":false,
+    "preserveSymlinks":false,
+    "composite":false
+  },
+  "exclude":[
+    "node_modules",
+    "dist"
   ]
 }

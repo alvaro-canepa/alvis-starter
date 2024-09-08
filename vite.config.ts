@@ -39,7 +39,7 @@ export default defineConfig(({ command, mode }): UserConfig => {
     plugins: [
       // Vue Router
       VueRouter({
-        routesFolder: 'src/modules',
+        routesFolder: 'src/pages',
         exclude: ['**/components/**/*', '**/views/*'],
         getRouteName: route => {
           const sPath = trim(route.fullPath, '/');
@@ -68,7 +68,7 @@ export default defineConfig(({ command, mode }): UserConfig => {
       // https://github.com/fi3ework/vite-plugin-checker
       checker({
         typescript: true,
-        // vueTsc: true,
+        vueTsc: false,
         // eslint: { lintCommand: 'eslint' },
         // stylelint: { lintCommand: 'stylelint' },
       }),

@@ -24,12 +24,27 @@ importers:
       '@pinia-orm/axios':
         specifier: ^1.9.2
         version: 1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
+      '@planetadeleste/pinia-orm-alvis':
+        specifier: ^1.0.1
+        version: 1.0.1(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
       '@planetadeleste/pinia-orm-auth':
         specifier: ^1.0.3
-        version: 1.0.3(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.4(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))
+        version: 1.0.3(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))
       '@planetadeleste/pinia-orm-core':
-        specifier: ^1.0.4
-        version: 1.0.4(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
+        specifier: ^1.0.7
+        version: 1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
+      '@planetadeleste/pinia-orm-location':
+        specifier: ^1.0.3
+        version: 1.0.3(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))
+      '@planetadeleste/pinia-orm-shopaholic':
+        specifier: ^1.0.3
+        version: 1.0.3(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))
+      '@vueuse/core':
+        specifier: ^11.0.3
+        version: 11.0.3(vue@3.4.38(typescript@5.5.4))
+      '@vueuse/integrations':
+        specifier: ^11.0.3
+        version: 11.0.3(axios@1.7.7)(idb-keyval@6.2.1)(vue@3.4.38(typescript@5.5.4))
       axios:
         specifier: ^1.7.5
         version: 1.7.7
@@ -169,9 +184,6 @@ importers:
       lint-staged:
         specifier: ^15.2.9
         version: 15.2.9
-      lodash:
-        specifier: '>=4.17.21'
-        version: 4.17.21
       lodash-es:
         specifier: ^4.17.21
         version: 4.17.21
@@ -222,7 +234,7 @@ importers:
         version: 8.3.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
       unplugin-auto-import:
         specifier: ^0.18.2
-        version: 0.18.2(rollup@4.21.1)
+        version: 0.18.2(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(rollup@4.21.1)
       unplugin-icons:
         specifier: ^0.18.5
         version: 0.18.5(@vue/compiler-sfc@3.4.38)
@@ -603,6 +615,11 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
+  '@planetadeleste/pinia-orm-alvis@1.0.1':
+    resolution: {integrity: sha512-6xe+PyhtIOw5e3FHklixmlSg01kRWwfGUQxXJ+GwbRvEZXzNU+eRf7snl0R6bo0hZKdt2PsJsuRr/FptISUFww==, tarball: https://npm.pkg.github.com/download/@planetadeleste/pinia-orm-alvis/1.0.1/786798dcd1536f5395751e01a2f0b364b99a7a9a}
+    peerDependencies:
+      axios: ^1.6.5
+
   '@planetadeleste/pinia-orm-auth@1.0.3':
     resolution: {integrity: sha512-K4YVs/9vzXoGcQ//bARNW06+q2I1FnNWRhoYIRHYRhhUelAchggPzLjkdJc5DjsluUT1aKdKc2z8a8y5mzS4Ww==, tarball: https://npm.pkg.github.com/download/@planetadeleste/pinia-orm-auth/1.0.3/aabd8a2414645fabf57153677ca1880f85881416}
     peerDependencies:
@@ -611,10 +628,35 @@ packages:
       axios: ^1.6.5
       pinia-orm: ^1.7.2
 
-  '@planetadeleste/pinia-orm-core@1.0.4':
-    resolution: {integrity: sha512-6PLd/jy9faovz7W6+yCWxaLLmSNez8ygUDpge8dAXgfX+3QVniug+kt1Ln1wOtQJwi/3ioZBeBz3jnMtjU2cWQ==, tarball: https://npm.pkg.github.com/download/@planetadeleste/pinia-orm-core/1.0.4/d41d5bfe2c4c4c33137babbef5e5b115f8c3ba56}
+  '@planetadeleste/pinia-orm-core@1.0.7':
+    resolution: {integrity: sha512-aWrPc+SvnhzP+2hgAeTs1lFoJaOolbmscmk70kSX9MboBU2/d2MNlj4xArFY/8qeZkg2zb0xLRPLXluEqdBbqA==, tarball: https://npm.pkg.github.com/download/@planetadeleste/pinia-orm-core/1.0.7/524bab4b03bf11e0fee61986eedca2d13d05a08e}
     peerDependencies:
+      '@pinia-orm/axios': ^1.9.2
+      '@vueuse/core': ^11.0.3
       axios: ^1.6.5
+      vue: ^3.5.3
+
+  '@planetadeleste/pinia-orm-location@1.0.3':
+    resolution: {integrity: sha512-BRw/bWCwdqUvt7xt5qR8hrctqK7C7kj26vM9nAqZO714+o/pN5m9xDKsiDYJF9fCvMdtemAZf77AzXnPBkgwOQ==, tarball: https://npm.pkg.github.com/download/@planetadeleste/pinia-orm-location/1.0.3/7a1b9a7732ff693a8c92d36efa7e7c32826a7c38}
+    peerDependencies:
+      '@planetadeleste/pinia-orm-core': ^1.0.0
+      pinia-orm: ^1.7.2
+
+  '@planetadeleste/pinia-orm-orders@1.0.5':
+    resolution: {integrity: sha512-qA5MDas+eh8H9arqD9pwA11eralmXilui+DH6ReIzTPLt7xCpD3pAm8YmhjRRKw0vLuuza4X4W9GIrrIxaNR6Q==, tarball: https://npm.pkg.github.com/download/@planetadeleste/pinia-orm-orders/1.0.5/abca8232554968e6b67471f27ba53dd6c24ce93c}
+    peerDependencies:
+      '@pinia-orm/axios': ^1.7.0
+      '@planetadeleste/pinia-orm-core': ^1.0.0
+      axios: ^1.6.5
+      pinia-orm: ^1.7.2
+
+  '@planetadeleste/pinia-orm-shopaholic@1.0.3':
+    resolution: {integrity: sha512-hxYUGuiBQFOGtA4LVCanuI5fedii1pF7M33+P0c7YG9Zyq47HzjzngDbhplA4MNNAbGv5KXj6QDZtbUVx0h+8A==, tarball: https://npm.pkg.github.com/download/@planetadeleste/pinia-orm-shopaholic/1.0.3/59236b861280cee04af806fcaa6f9204d20335ff}
+    peerDependencies:
+      '@pinia-orm/axios': ^1.7.0
+      '@planetadeleste/pinia-orm-core': ^1.0.0
+      axios: ^1.6.5
+      pinia-orm: ^1.7.2
 
   '@rollup/pluginutils@5.1.0':
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
@@ -738,6 +780,9 @@ packages:
 
   '@types/tough-cookie@4.0.5':
     resolution: {integrity: sha512-/Ad8+nIOV7Rl++6f1BdKxFSMgmoqEoYbHRpPcx3JEfv8VRsQe9Z4mCXeJBzxs7mbHY/XOZZuXlRNfhpVPbs6ZA==}
+
+  '@types/web-bluetooth@0.0.20':
+    resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
 
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
@@ -970,6 +1015,56 @@ packages:
 
   '@vue/tsconfig@0.5.1':
     resolution: {integrity: sha512-VcZK7MvpjuTPx2w6blwnwZAu5/LgBUtejFOi3pPGQFXQN5Ela03FUtd2Qtg4yWGGissVL0dr6Ro1LfOFh+PCuQ==}
+
+  '@vueuse/core@11.0.3':
+    resolution: {integrity: sha512-RENlh64+SYA9XMExmmH1a3TPqeIuJBNNB/63GT35MZI+zpru3oMRUA6cEFr9HmGqEgUisurwGwnIieF6qu3aXw==}
+
+  '@vueuse/integrations@11.0.3':
+    resolution: {integrity: sha512-w6CDisaxs19S5Fd+NPPLFaA3GoX5gxuxrbTTBu0EYap7oH13w75L6C/+7e9mcoF9akhcR6GyYajwVMQEjdapJg==}
+    peerDependencies:
+      async-validator: ^4
+      axios: ^1
+      change-case: ^5
+      drauu: ^0.4
+      focus-trap: ^7
+      fuse.js: ^7
+      idb-keyval: ^6
+      jwt-decode: ^4
+      nprogress: ^0.2
+      qrcode: ^1.5
+      sortablejs: ^1
+      universal-cookie: ^7
+    peerDependenciesMeta:
+      async-validator:
+        optional: true
+      axios:
+        optional: true
+      change-case:
+        optional: true
+      drauu:
+        optional: true
+      focus-trap:
+        optional: true
+      fuse.js:
+        optional: true
+      idb-keyval:
+        optional: true
+      jwt-decode:
+        optional: true
+      nprogress:
+        optional: true
+      qrcode:
+        optional: true
+      sortablejs:
+        optional: true
+      universal-cookie:
+        optional: true
+
+  '@vueuse/metadata@11.0.3':
+    resolution: {integrity: sha512-+FtbO4SD5WpsOcQTcC0hAhNlOid6QNLzqedtquTtQ+CRNBoAt9GuV07c6KNHK1wCmlq8DFPwgiLF2rXwgSHX5Q==}
+
+  '@vueuse/shared@11.0.3':
+    resolution: {integrity: sha512-0rY2m6HS5t27n/Vp5cTDsKTlNnimCqsbh/fmT2LgE+aaU42EMfXo8+bNX91W9I7DDmxfuACXMmrd7d79JxkqWA==}
 
   abbrev@2.0.0:
     resolution: {integrity: sha512-6/mh1E2u2YgEsCHdY0Yx5oW+61gZU+1vXaoiHHrpKeuRNNgFvS+/jrwHiQhB5apAf5oB7UB7E19ol2R2LKH8hQ==}
@@ -3421,6 +3516,10 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
+  uuid@10.0.0:
+    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    hasBin: true
+
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
@@ -4064,24 +4163,62 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@planetadeleste/pinia-orm-auth@1.0.3(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.4(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))':
+  '@planetadeleste/pinia-orm-alvis@1.0.1(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@pinia-orm/axios': 1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
-      '@planetadeleste/pinia-orm-core': 1.0.4(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
+      '@planetadeleste/pinia-orm-auth': 1.0.3(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))
+      '@planetadeleste/pinia-orm-core': 1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
+      '@planetadeleste/pinia-orm-orders': 1.0.5(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))
+      '@planetadeleste/pinia-orm-shopaholic': 1.0.3(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))
+      axios: 1.7.7
+      pinia: 2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
+      pinia-orm: 1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
+      uuid: 10.0.0
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - '@vueuse/core'
+      - typescript
+      - vue
+
+  '@planetadeleste/pinia-orm-auth@1.0.3(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))':
+    dependencies:
+      '@pinia-orm/axios': 1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
+      '@planetadeleste/pinia-orm-core': 1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
       axios: 1.7.7
       pinia-orm: 1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
 
-  '@planetadeleste/pinia-orm-core@1.0.4(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))':
+  '@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))':
     dependencies:
+      '@pinia-orm/axios': 1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
+      '@vueuse/core': 11.0.3(vue@3.4.38(typescript@5.5.4))
       axios: 1.7.7
       lodash: 4.17.21
       pinia: 2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
       pinia-orm: 1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
       uuid: 9.0.1
+      vue: 3.4.38(typescript@5.5.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - typescript
-      - vue
+
+  '@planetadeleste/pinia-orm-location@1.0.3(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))':
+    dependencies:
+      '@planetadeleste/pinia-orm-core': 1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
+      pinia-orm: 1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
+
+  '@planetadeleste/pinia-orm-orders@1.0.5(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))':
+    dependencies:
+      '@pinia-orm/axios': 1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
+      '@planetadeleste/pinia-orm-core': 1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
+      axios: 1.7.7
+      pinia-orm: 1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
+
+  '@planetadeleste/pinia-orm-shopaholic@1.0.3(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@planetadeleste/pinia-orm-core@1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))':
+    dependencies:
+      '@pinia-orm/axios': 1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
+      '@planetadeleste/pinia-orm-core': 1.0.7(@pinia-orm/axios@1.9.2(axios@1.7.7)(pinia-orm@1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))))(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(axios@1.7.7)(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4))
+      axios: 1.7.7
+      pinia-orm: 1.9.2(pinia@2.2.2(typescript@5.5.4)(vue@3.4.38(typescript@5.5.4)))
 
   '@rollup/pluginutils@5.1.0(rollup@4.21.1)':
     dependencies:
@@ -4171,6 +4308,8 @@ snapshots:
       minipass: 4.2.8
 
   '@types/tough-cookie@4.0.5': {}
+
+  '@types/web-bluetooth@0.0.20': {}
 
   '@types/yauzl@2.10.3':
     dependencies:
@@ -4521,6 +4660,37 @@ snapshots:
       vue-component-type-helpers: 2.0.29
 
   '@vue/tsconfig@0.5.1': {}
+
+  '@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4))':
+    dependencies:
+      '@types/web-bluetooth': 0.0.20
+      '@vueuse/metadata': 11.0.3
+      '@vueuse/shared': 11.0.3(vue@3.4.38(typescript@5.5.4))
+      vue-demi: 0.14.10(vue@3.4.38(typescript@5.5.4))
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+
+  '@vueuse/integrations@11.0.3(axios@1.7.7)(idb-keyval@6.2.1)(vue@3.4.38(typescript@5.5.4))':
+    dependencies:
+      '@vueuse/core': 11.0.3(vue@3.4.38(typescript@5.5.4))
+      '@vueuse/shared': 11.0.3(vue@3.4.38(typescript@5.5.4))
+      vue-demi: 0.14.10(vue@3.4.38(typescript@5.5.4))
+    optionalDependencies:
+      axios: 1.7.7
+      idb-keyval: 6.2.1
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+
+  '@vueuse/metadata@11.0.3': {}
+
+  '@vueuse/shared@11.0.3(vue@3.4.38(typescript@5.5.4))':
+    dependencies:
+      vue-demi: 0.14.10(vue@3.4.38(typescript@5.5.4))
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
 
   abbrev@2.0.0: {}
 
@@ -7137,7 +7307,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unplugin-auto-import@0.18.2(rollup@4.21.1):
+  unplugin-auto-import@0.18.2(@vueuse/core@11.0.3(vue@3.4.38(typescript@5.5.4)))(rollup@4.21.1):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.0(rollup@4.21.1)
@@ -7147,6 +7317,8 @@ snapshots:
       minimatch: 9.0.5
       unimport: 3.11.1(rollup@4.21.1)
       unplugin: 1.12.3
+    optionalDependencies:
+      '@vueuse/core': 11.0.3(vue@3.4.38(typescript@5.5.4))
     transitivePeerDependencies:
       - rollup
 
@@ -7227,6 +7399,8 @@ snapshots:
       requires-port: 1.0.0
 
   util-deprecate@1.0.2: {}
+
+  uuid@10.0.0: {}
 
   uuid@9.0.1: {}
 

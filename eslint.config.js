@@ -35,9 +35,7 @@ export default tseslint.config(
       parserOptions: {
         parser: tseslint.parser,
         project: [
-          'tsconfig.app.json',
-          'tsconfig.node.json',
-          'tsconfig.vitest.json',
+          'tsconfig.json',
         ],
         tsconfigRootDir: import.meta.dirname,
         extraFileExtensions: ['.vue'],
@@ -109,7 +107,7 @@ export default tseslint.config(
       '@typescript-eslint/strict-boolean-expressions': 'off',
       // Fix for vite env.d.ts.
       '@typescript-eslint/triple-slash-reference': 'off',
-      '@typescript-eslint/ no-explicit-any': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
       // Fix for Vue setup style
       'import/default': 'off',
       // Fix for Vue setup style

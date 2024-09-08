@@ -11,10 +11,9 @@ import {
 } from '@iconify/tools';
 import { compareColors, stringToColor } from '@iconify/utils/lib/colors';
 import fg from 'fast-glob';
-import lodash from 'lodash';
+import { castArray, forEach, kebabCase, set } from 'lodash-es';
 import Icons from 'unplugin-icons/vite';
 
-const { castArray, forEach, kebabCase, set } = lodash;
 const sBase = '/mnt/Trabajos/Devel/UI/Icons/SVG';
 
 const collectionIcon = async (sIcon: string, sCollection: string) => {
